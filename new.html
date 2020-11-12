@@ -6,18 +6,18 @@
   <body>
     <form>
       <div class="form-group">
-        <label for="exampleInputtext1">text address</label>
-        <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textHelp">
+        <label for="champion_name">Champion</label>
+        <input type="text" class="form-control" name='champion_name' id="champion_name" placeholder="Champion name goes here">
       </div>
       <div class="form-group">
-        <label for="exampleInputtext1">text</label>
-        <input type="text" class="form-control" id="exampleInputtext1">
+        <label for="games_won">Games Won</label>
+        <input type="range" class="custom-range" min="0" max="10" name="games_won" id="games_won">
       </div>
-      <div class="form-group form-check">
-        <label for="exampleInputtext1">text</label>
-        <input type="text" class="form-control" id="exampleInputtext1">
+      <div class="form-group">
+        <label for="games_lost">Games Lost</label>
+        <input type="range" class="custom-range" min="0" max="10" name="games_lost" id="games_lost">
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" value="add_champion" class="btn btn-primary">Submit</button>
     </form>
     
     <script>
